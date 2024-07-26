@@ -1,0 +1,147 @@
+/* Import the Poppins font from Google Fonts with various weights */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+
+/* Global styles for the body element */
+body {
+    background-color: black; /* Set the background color of the page to black */
+    display: flex; /* Use flexbox to align items centrally */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Align items horizontally in the center */
+    padding: 50px; /* Add padding around the body */
+    font-family: 'Poppins', sans-serif; /* Apply the Poppins font family */
+}
+
+/* Styles for the main application container */
+.app {
+    width: 400px; /* Set the width of the application container */
+    padding: 25px; /* Add padding inside the application container */
+    color: #e5e5e5; /* Set the text color */
+    border-radius: 10px; /* Round the corners of the container */
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.2); /* Add a subtle shadow */
+    background: linear-gradient(108deg, #821ea9, #7c43e0); /* Apply a gradient background */
+}
+
+/* Styles for the main heading in the application */
+.app h1 {
+    text-align: center; /* Center-align the text */
+    font-size: 24px; /* Set the font size */
+    font-weight: 400; /* Set the font weight */
+}
+
+/* Wrapper for input and button elements */
+.input-wrapper {
+    display: flex; /* Use flexbox to align input and button in a row */
+}
+
+/* Styles for the input field within the wrapper */
+.input-wrapper input {
+    width: 100%; /* Make the input field take the full width */
+    padding: 5px 10px; /* Add padding inside the input field */
+    height: 30px; /* Set the height of the input field */
+    font-size: 14px; /* Set the font size */
+    border: none; /* Remove default border */
+    border-top-left-radius: 5px; /* Round the top-left corner */
+    border-bottom-left-radius: 5px; /* Round the bottom-left corner */
+}
+
+/* Remove the outline when the input field is focused */
+.input-wrapper input:focus {
+    outline: none;
+}
+
+/* Styles for the button within the input-wrapper */
+.input-wrapper button {
+    display: flex; /* Use flexbox to center the button content */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Align items horizontally in the center */
+    background-color: black; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove default border */
+    border-top-right-radius: 5px; /* Round the top-right corner */
+    border-bottom-right-radius: 5px; /* Round the bottom-right corner */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    width: 80px; /* Set the width of the button */
+}
+
+/* Styles for the content area */
+.content {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Align items vertically in the center */
+    background: linear-gradient(262deg, rgba(0,0,0,0.1), rgba(0,0,0,0.4)); /* Apply a gradient background */
+    margin-top: 10px; /* Add margin at the top */
+    border-radius: 10px; /* Round the corners */
+}
+
+/* Flexbox utility class for centered alignment */
+.d-flex {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center-align items vertically */
+    justify-content: center; /* Center-align items horizontally */
+}
+
+/* Flexbox utility class for column direction */
+.flex-c {
+    flex-direction: column; /* Stack children vertically */
+}
+
+/* Styles for the location section */
+.location {
+    margin-top: 20px; /* Add margin at the top */
+}
+
+.location h2 {
+    margin: 0; /* Remove default margin */
+    margin-left: 10px; /* Add margin on the left */
+    font-weight: 300; /* Set the font weight */
+}
+
+.location h2 span {
+    font-size: 14px; /* Set the font size for the span element */
+}
+
+/* Styles for the date text */
+.datetext {
+    font-size: 14px; /* Set the font size */
+}
+
+/* Styles for the weather description */
+.weatherdesc h3 {
+    margin: 0; /* Remove default margin */
+    text-transform: capitalize; /* Capitalize the first letter of each word */
+    font-weight: 400; /* Set the font weight */
+}
+
+/* Styles for temperature statistics section */
+.tempstats {
+    width: 100%; /* Make the section take the full width */
+    padding: 20px 0px; /* Add vertical padding */
+}
+
+.tempstats h1 {
+    font-size: 64px; /* Set the font size */
+    font-weight: 200; /* Set the font weight */
+    margin: 0; /* Remove default margin */
+}
+
+.tempstats h1 span {
+    font-size: 38px; /* Set the font size for the span element */
+}
+
+.tempstats h3 {
+    font-weight: 400; /* Set the font weight */
+}
+
+/* Styles for wind statistics section */
+.windstats {
+    padding: 0px 20px; /* Add horizontal padding */
+    background: rgba(0,0,0,0.3); /* Set the background color with opacity */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border-radius: 10px; /* Round the corners */
+}
+
+.windstats h3 {
+    margin-left: 10px; /* Add margin on the left */
+    font-weight: 400; /* Set the font weight */
+}
