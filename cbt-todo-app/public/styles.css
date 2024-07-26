@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ccac60;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+}
+
+
+header {
+  background-color: #f5ba13;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f5ba13;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.create-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.create-task input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-task button {
+  background-color: #f5ba13;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.task-list, .completed-task-list {
+  max-height: 70vh;  /* Adjust the height as needed */
+  overflow-y: auto;
+  padding: 0 20px;
+}
+
+.task {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.task button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.task h3 {
+  margin: 0;
+}
+
+.task p {
+  color: #888;
+}
